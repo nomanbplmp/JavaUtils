@@ -6,10 +6,10 @@ import software.amazon.awssdk.services.s3.model.PutObjectRequest;
  
 public class UploadFileExample1 {
     public static void main(String[] args) {
-        String bucketName = "codejava-bucket";
+        String bucketName = "REPLACE_WITH_S3_BUCKET";
          
-        String fileName = "Java Logo.png";
-        String filePath = "D:/Images/" + fileName;
+        String fileName = "REPLACE_WITH_FILE_NAME";
+        String filePath = "REPLACE_WITH_FILE_LOCATION";
          
         S3Client client = S3Client.builder().build();
          
